@@ -44,3 +44,4 @@ resource "openstack_compute_instance_v2" "vm_monitor" {
 # test CI/CD
 # test CI/CD
 # CI/CD test
+# trigger
