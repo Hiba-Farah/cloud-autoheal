@@ -19,7 +19,7 @@ jobs:
       - name: Terraform Init
         run: |
           cd terraform
-          terraform init
+          terraform init -plugin-dir=/home/hiba/cloud-autoheal/terraform/.terraform/providers
 
       - name: Terraform Plan
         run: |
