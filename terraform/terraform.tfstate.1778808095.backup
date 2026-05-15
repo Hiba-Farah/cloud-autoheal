@@ -1,0 +1,51 @@
+{
+  "version": 4,
+  "terraform_version": "1.15.1",
+  "serial": 4,
+  "lineage": "c543f94b-ebb2-d0b7-2518-686977249458",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "openstack_networking_network_v2",
+      "name": "network",
+      "provider": "provider[\"registry.terraform.io/terraform-provider-openstack/openstack\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "admin_state_up": true,
+            "all_tags": [],
+            "availability_zone_hints": [],
+            "description": "",
+            "dns_domain": "",
+            "external": false,
+            "id": "0c5245c0-744e-498d-b0d5-645347929ab5",
+            "mtu": 1442,
+            "name": "autoheal-network",
+            "port_security_enabled": true,
+            "qos_policy_id": "",
+            "region": "microstack",
+            "segments": [
+              {
+                "network_type": "geneve",
+                "physical_network": "",
+                "segmentation_id": 52557
+              }
+            ],
+            "shared": false,
+            "tags": [],
+            "tenant_id": "70730abc48bc44368466542a136f8753",
+            "timeouts": null,
+            "transparent_vlan": false,
+            "value_specs": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
