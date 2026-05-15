@@ -32,3 +32,4 @@ resource "openstack_compute_instance_v2" "vm_monitor" {
     uuid = data.openstack_networking_network_v2.network.id
   }
 }
+# pipeline fix
