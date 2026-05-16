@@ -34,3 +34,4 @@ resource "openstack_compute_instance_v2" "vm_monitor" {
 }
 # pipeline fix
 # v4 test
+# demo competition
